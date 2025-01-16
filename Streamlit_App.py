@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-joblib.load('model.joblib')
+joblib.load('app/model.joblib')
 
 st.title("Predictive Demand Forecasting for Manufacturing")
 st.subheader("Model Details")
